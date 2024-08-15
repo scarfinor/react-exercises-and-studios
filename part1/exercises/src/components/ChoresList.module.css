@@ -1,7 +1,17 @@
 .choresText {
-   color: black;
+  text-align: left;
+  color: goldenrod;
+  font-size: 1.3vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
 }
 
 .choresHeading {
-   color: black;
+  text-align: left;
+  color: red;
+  font-size: 2vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: underline;
 }
