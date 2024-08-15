@@ -8,10 +8,12 @@ import HobbyList from "./components/HobbyList.jsx";
 function App() {
   return (
     <div className="App">
-      <MovieList />
       <ChoresList />
-      <BookList />
-      <HobbyList />
+      <div className="similarComponents">
+        <MovieList />
+        <BookList />
+        <HobbyList />
+      </div>
     </div>
   );
 }

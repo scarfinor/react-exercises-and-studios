@@ -1,5 +1,4 @@
 .hobbyHeading {
-  text-align: right;
   color: green;
   font-size: 2vw;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -7,6 +6,5 @@
 }
 
 .hobbyLink {
-  text-align: right;
   font-size: 1.3vw;
 }
