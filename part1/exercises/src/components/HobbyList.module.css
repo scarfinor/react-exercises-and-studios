@@ -1,0 +1,12 @@
+.hobbyHeading {
+  text-align: right;
+  color: green;
+  font-size: 2vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.hobbyLink {
+  text-align: right;
+  font-size: 1.3vw;
+}
