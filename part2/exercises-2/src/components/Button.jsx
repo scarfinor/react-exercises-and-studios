@@ -2,7 +2,7 @@ import "./styles.css";
 
 function Button() {
   function onLearnMore() {
-    window.alert("Splish SPlash");
+    window.alert("Splish Splash");
   }
 
   return <button onClick={onLearnMore}>Learn More</button>;
