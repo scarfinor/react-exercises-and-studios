@@ -16,14 +16,14 @@ export default function MyProjects() {
 
   return (
     <div>
-      <button onClick={handleClick}>Next</button>
+      <button onClick={handleClick}>Change Team</button>
       <div>
-        <h3>{teams.title}</h3>
+        <h3>{teams.team}</h3>
         <p>
-          <strong>Photographer:</strong> {teams.photographer}
+          <strong>Roster:</strong> {teams.roster}
         </p>
         <img
-          src={teams.photoUrl}
+          src={teams.photUrl}
           alt={teams.alt}
           style={{ width: "300px", height: "auto" }}
         />
