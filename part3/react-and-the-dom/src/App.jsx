@@ -4,7 +4,14 @@ import ShoeButton from "./components/ShoeButton";
 import Report from "./components/Report";
 
 function App() {
-  return (<ShoeButton />), (<Report />);
+  return (
+    <div>
+      <ShoeButton />
+      <div>
+        <Report />
+      </div>
+    </div>
+  );
 }
 
 export default App;
