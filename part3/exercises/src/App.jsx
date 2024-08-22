@@ -1,19 +1,13 @@
-import { useState } from 'react'
-import './App.css'
-import HobbyIntroduction from './components/Introduction';
-import MyProjects from './components/Projects';
+import "./App.css";
+import HobbyIntroduction from "./components/Introduction";
 
 function App() {
-
   return (
-    <>
-      <div className="App">
-	  <h1>My Hobby: Needlepoint</h1>
-	  <HobbyIntroduction />
-	  <MyProjects />
-      </div>
-    </>
-  )
+    <div>
+      <h1>My Hobby: Call Of Duty</h1>
+      <HobbyIntroduction />
+    </div>
+  );
 }
 
-export default App
+export default App;
