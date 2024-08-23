@@ -2,7 +2,7 @@ import recipedata from "./recipe.json";
 
 function RecipeImage() {
   return (
-    <div>
+    <div className="recipeImage">
       <img src={recipedata.RecipeImage} alt="Stovetop Mac and Cheese" />
     </div>
   );
